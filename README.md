@@ -476,21 +476,33 @@ The collection includes experiments where Jev is used as a decision layer around
 
 ---
 
-# 🔎 Search Demand
+## Search demand
 
-The original research includes keyword analysis using US search-volume data from **September 19, 2026**.
+Deeper keyword research, live results-page checks, a forecast from X and YouTube data and a content plan are in [docs/keyword-research.md](docs/keyword-research.md). Views for 65 Jev YouTube videos are in [data/youtube.csv](data/youtube.csv). The full list of 112 keywords is in [data/keywords.csv](data/keywords.csv).
 
-| Keyword | Monthly Searches | Competition | Interpretation |
-|---|---:|---|---|
-| `jev` | 4,400 | Low | Ambiguous term |
-| `typesafe ai` | 320 | Low | Strong recent growth |
-| `typesafe` | 170 | Low | Mixed search intent |
-| `ai router` | 880 | Low | Relevant to routing |
-| `open router ai` | 2,900 | Low | Adjacent routing demand |
-| `ai classifier` | 140 | Low | Relevant classification intent |
-| `llm classifier` | 40 | Low | Smaller niche |
-| `content moderation ai` | 30 | Low | Relevant application |
+<p align="center">
+  <img src="assets/chart-search-demand.svg" alt="Monthly search volume for Jev related keywords" width="100%">
+</p>
 
+Google search volume in the US, from a keyword-data provider called through treg on 2026-09-19. These are monthly averages for the last 12 months.
+
+| Keyword | Monthly searches | Competition | Note |
+| --- | ---: | --- | --- |
+| jev | 4,400 | Low | Ambiguous. The word has other meanings, so do not read this as demand for the model. |
+| typesafe ai | 320 | Low | Up about 1,080% year over year. It sat near 50 a month in late 2025 and reached 590 to 720 a month from March 2026. |
+| typesafe | 170 | Low | Also the name of a Scala type-safety idea, so mixed intent. |
+| ai router | 880 | Low | Fits the router projects in this list. |
+| open router ai | 2,900 | Low | Adjacent demand for model routing. |
+| ai classifier | 140 | Low | Fits classification demos. |
+| llm classifier | 40 | Low | Small. |
+| content moderation ai | 30 | Low | High cost per click of about $19, so advertisers value it. |
+| jev model, jev api, awesome jev, system one model, slop detector | No data | None | Too new or too small to report. |
+
+What this says: people who look for the company by name are few but growing fast, and nobody yet searches for the model as "Jev" in a way that isolates it. Terms that describe the job, such as router and classifier, carry the volume. A page that ranks for those and shows a Jev example has more room than a page fighting for "jev". Volume for the newest terms is blank because the provider has no data yet, not because it is zero.
+
+Suggested repository topics:
+
+`jev` · `typesafe` · `system-one` · `llm` · `classification` · `routing` · `awesome-list`
 Some newer terms such as:
 
 ```text
