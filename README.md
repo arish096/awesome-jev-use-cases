@@ -1,306 +1,398 @@
+<div align="center">
+
 # ⚡ Awesome Jev Use Cases
 
-<p align="center">
-  <img src="assets/banner-v3.png" alt="Awesome Jev Use Cases" width="100%">
+### TypeSafe AI Jev — Demos · Use Cases · Open Source · Patterns · Resources
+
+<p>
+  <img src="https://img.shields.io/badge/Curated%20by-Arish%20Islam-7C3AED?style=for-the-badge" alt="Curated by Arish Islam"/>
+  <img src="https://img.shields.io/github/stars/arish096/awesome-jev-use-cases?style=for-the-badge&color=F59E0B" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/license/arish096/awesome-jev-use-cases?style=for-the-badge&color=22C55E" alt="License"/>
+  <img src="https://img.shields.io/github/last-commit/arish096/awesome-jev-use-cases?style=for-the-badge&color=3B82F6" alt="Last Commit"/>
 </p>
 
-<p align="center">
-  <strong>A curated collection of real-world applications, demos, repositories, patterns, and resources built around TypeSafe AI's Jev model.</strong>
+<p>
+  <a href="https://github.com/arish096">GitHub</a> ·
+  <a href="https://arish-islam-portfolio.lovable.app/">Portfolio</a> ·
+  <a href="#-contributing">Contribute</a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/arish096">
-    <img src="https://img.shields.io/badge/Maintained%20by-Arish%20Islam-7C3AED?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://github.com/arish096/awesome-jev-use-cases">
-    <img src="https://img.shields.io/github/stars/arish096/awesome-jev-use-cases?style=for-the-badge&logo=github&label=Stars">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-CC0%201.0-blue?style=for-the-badge">
-  </a>
-</p>
+</div>
 
 ---
 
-## 🧠 About This Collection
+<div align="center">
 
-**Awesome Jev Use Cases** is a community-focused collection of practical ideas and projects showing how **Jev** can be used for typed AI decisions instead of traditional text generation.
+<img src="assets/banner-v3.png" alt="Awesome Jev Use Cases Banner" width="100%"/>
 
-Jev is particularly interesting for tasks where an AI system needs to make a structured decision such as:
-
-- 🎯 Classification
-- 🔀 Routing
-- 🛡️ Guardrails
-- 🤖 Agent decisions
-- 📊 Scoring
-- 📩 Triage
-- 🔎 Search and ranking
-- 🎮 Real-time game decisions
-- 🧩 Tool selection
-- ⚙️ Automation workflows
-
-This repository brings these ideas together so developers can **discover patterns, explore implementations, and build their own AI-powered systems**.
-
-> **Note:** This is an unofficial community collection and is not affiliated with TypeSafe AI.
+</div>
 
 ---
 
-## 👨‍💻 About the Maintainer
+## 👋 About This Repository
 
-Hi, I'm **[Arish Islam](https://github.com/arish096)** 👋
+**Awesome Jev Use Cases** is a curated collection of demos, projects, open-source repositories, patterns, and practical ideas built around **Jev**, TypeSafe AI's model for typed decisions.
 
-I'm a student and aspiring developer exploring the intersection of:
+The goal is simple:
 
-**Web Development · AI · Prompt Engineering · AI Workflows · Agentic Systems**
+> **Explore what Jev can do, understand the patterns behind real implementations, and use those ideas to build useful AI-powered applications.**
 
-I enjoy turning ideas into practical projects and experimenting with modern AI tools, automation workflows, and developer technologies.
+This repository brings together practical examples across areas such as:
 
-This repository is part of my exploration of the rapidly evolving AI ecosystem, especially systems where models are used not only to generate content but also to **make structured decisions inside applications and agents**.
+- 🤖 AI agents & computer use
+- 🔀 Routing & classification
+- 📧 Inbox and task triage
+- 🧠 Decision-making systems
+- 🎮 Games & real-time interactions
+- 📊 Research & data workflows
+- 📈 Trading & market experiments
+- 🛠️ Developer tools
+- 📱 AI-powered applications
 
-### 🔗 Connect with me
-
-- 💻 GitHub: [@arish096](https://github.com/arish096)
-- 🌐 Portfolio: [Arish Islam Portfolio](https://arish-islam-portfolio.lovable.app/)
-- 🧠 Interests: AI Agents, AI Workflows, Prompt Engineering, Web Development, Automation
+The original collection is open source under **CC0 1.0** and is explicitly described as unofficial and not affiliated with TypeSafe. Each listed demo/repository points back to its original creator or source.
 
 ---
 
-## 🚀 Why Jev?
+## 👨‍💻 Maintained by Arish Islam
 
-Traditional LLMs are excellent at generating text, but many application decisions can be represented more cleanly as structured outputs.
+<div align="center">
 
-For example:
+<a href="https://github.com/arish096">
+  <img src="https://github.com/arish096.png" width="120" alt="Arish Islam GitHub Avatar"/>
+</a>
+
+### Arish Islam
+
+**Web Developer · AI & Prompt Engineering · AI-Powered Applications**
+
+[![GitHub](https://img.shields.io/badge/GitHub-arish096-181717?style=flat-square&logo=github)](https://github.com/arish096)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=flat-square)](https://arish-islam-portfolio.lovable.app/)
+
+</div>
+
+This repository is maintained as part of my exploration of:
+
+- AI-powered applications
+- Prompt engineering
+- AI agents & automation
+- Web development
+- Practical developer tools
+- Open-source projects
+- Emerging AI models and workflows
+
+**Note:** The projects and demos listed here belong to their respective creators. This repository acts as a curated reference and learning resource.
+
+---
+
+# 🧠 What Is Jev?
+
+Jev is described in the source material as a model from **TypeSafe AI** designed for **typed decisions rather than text generation**.
+
+Instead of primarily returning paragraphs of generated text, a Jev-style workflow can return structured decisions such as:
+
+- `Choice`
+- `Score`
+- `Noul` — yes/no with probability
+
+This makes the model useful for systems where an application needs to **decide, classify, route, score, or evaluate something**.
+
+### Simple mental model
 
 ```text
-User Request
-     ↓
-   Jev
-     ↓
- ┌───────────────┐
- │ Choice        │
- │ Score         │
- │ Yes / No      │
- │ Confidence    │
- └───────────────┘
-     ↓
-Application / Agent
+User / Application
+        │
+        ▼
+     Input
+        │
+        ▼
+   ┌─────────┐
+   │   Jev   │
+   └────┬────┘
+        │
+        ▼
+ Structured Decision
+        │
+   ┌────┼─────┐
+   ▼    ▼     ▼
+ Choice Score  Yes/No
+        │
+        ▼
+ Application Action
 ```
 
-This makes Jev interesting for systems that need a **decision layer** between an input and an action.
+---
+
+# 🚀 Why Explore Jev?
+
+Traditional LLM workflows often focus on:
+
+```text
+Input → Generate Text → Parse Text → Take Action
+```
+
+A typed-decision workflow can instead be thought of as:
+
+```text
+Input → Decision → Action
+```
+
+That makes the idea interesting for applications where **reliable structured outputs** are more useful than long-form generation.
 
 ---
 
-## 🔥 Top Use Cases
+# 📊 Collection at a Glance
 
-### 🤖 AI Agents & Computer Use
+The source collection was refreshed on **September 26, 2026**. Its snapshot reports:
 
-Jev can act as a decision layer inside agents that need to choose:
+| Metric | Value |
+|---|---:|
+| 🎥 Demo posts tracked | **74** |
+| ❤️ Total likes | **127,162** |
+| 🔁 Total reposts | **6,998** |
+| 💬 Total replies | **5,742** |
+| 🔥 Demos with 1,000+ likes | **38** |
+| 📦 Open-source repos in main list | **38** |
+| ⭐ Combined GitHub stars | **53,259** |
+| 🟦 TypeScript repos | **14** |
+| 🐍 Python repos | **12** |
+| 🟨 JavaScript repos | **6** |
 
-- Which tool to use
-- Which action to perform
-- Which browser element to interact with
-- Whether an operation is safe
-- Whether an agent should continue or stop
-
-### 🔀 Model Routing
-
-Use Jev to decide which model, agent, or workflow should handle a particular request.
+### Demo areas
 
 ```text
-User Request
-      ↓
+Content & Growth       ██████████████████  18
+Apps & Tools           █████████████████   17
+Agents & Computer Use  ██████████████      14
+Triage & Routing       █████████            9
+Games & Real Time      ███████              7
+Research & Data        ███████              7
+Trading & Markets      ██                   2
+```
+
+The original dataset reports **Content and Growth** as the largest demo category, followed by Apps and Tools and Agents and Computer Use.
+
+---
+
+# 🖼️ Featured Jev Demos
+
+The original repository includes visual cards linking directly to the creators' posts. Examples include:
+
+<div align="center">
+
+<a href="https://x.com/tamarajtran/status/2100694549362553153">
+<img src="assets/cards/01-instant-compaction.svg" width="48%" alt="Instant compaction for Claude"/>
+</a>
+
+<a href="https://x.com/gregpr07/status/2100411066966749359">
+<img src="assets/cards/02-browser-use-flights.svg" width="48%" alt="Flight search with Browser Use"/>
+</a>
+
+<br/>
+
+<a href="https://x.com/RBilgil/status/2100976648552169805">
+<img src="assets/cards/03-rbilgil-slop-detector.svg" width="48%" alt="Real-time slop detector"/>
+</a>
+
+<a href="https://x.com/TheMattBerman/status/2100654891756589230">
+<img src="assets/cards/04-competitor-ad-teardown.svg" width="48%" alt="Competitor ad teardown"/>
+</a>
+
+</div>
+
+These are only a few examples from the original collection; the repository contains a larger visual gallery of popular demos.
+
+---
+
+# 💡 What Can Jev Be Used For?
+
+## 🔀 Routing & Classification
+
+```text
+Incoming Request
+       │
+       ▼
      Jev
-      ↓
- ┌────┼────┐
- ↓    ↓    ↓
-Fast  Pro  Agent
-Model Model Workflow
+       │
+ ┌─────┼─────┐
+ ▼     ▼     ▼
+Sales Support Spam
 ```
 
-### 🛡️ Guardrails
+Useful for:
 
-Jev can be used to evaluate whether an action should:
-
-- Continue
-- Ask for confirmation
-- Be blocked
-- Be escalated
-
-This is especially useful in agentic workflows where every tool call should not automatically be trusted.
-
-### 📩 Triage & Classification
-
-Examples include:
-
-- Email classification
-- Support-ticket routing
-- Intent detection
-- Lead qualification
-- Content moderation
-- Search-result filtering
-
-### 🎮 Games & Real-Time Systems
-
-Decision models can also be used in environments where an application repeatedly needs to choose an action based on structured state.
+- Intent classification
+- Request routing
+- Support triage
+- Content categorization
+- Model selection
 
 ---
 
-## 🌟 Popular Demos
+## 🤖 AI Agents
 
-The original collection tracks real-world Jev demonstrations across areas such as:
+Jev-style decisions can act as a control layer inside larger AI systems.
 
-| Category | Examples |
+```text
+User
+ │
+ ▼
+AI Agent
+ │
+ ▼
+Decision Layer
+ │
+ ├── Search
+ ├── Browse
+ ├── Execute
+ └── Escalate
+```
+
+---
+
+## 📧 Inbox Triage
+
+```text
+500 Emails
+     │
+     ▼
+ Classification
+     │
+ ┌───┼────────┐
+ ▼   ▼        ▼
+Urgent Normal Spam
+ │
+ ▼
+Human / Agent Action
+```
+
+---
+
+## 🛡️ Guardrails
+
+Use structured decisions to determine whether an action should continue.
+
+```text
+User Request
+     │
+     ▼
+Safety / Policy Check
+     │
+ ┌───┴────┐
+ ▼        ▼
+ALLOW   BLOCK
+```
+
+---
+
+## 🎮 Games & Real-Time Systems
+
+The source collection includes experiments involving games, real-time level generation, interactive systems, and other dynamic environments.
+
+---
+
+# 🧩 Patterns Worth Exploring
+
+| Pattern | Example |
 |---|---|
-| 🤖 Agents & Computer Use | Browser agents, computer control |
-| 🔀 Routing & Triage | Model routing, email triage |
-| 🛠️ Apps & Tools | Browser extensions, developer tools |
-| 📈 Content & Growth | Post scoring, content filtering |
-| 🎮 Games & Real Time | Game agents and dynamic decisions |
-| 🔬 Research & Data | Paper discovery and data workflows |
-| 💹 Trading & Markets | Automated decision systems |
-
-The collection currently tracks dozens of demos and open-source projects across these areas.
-
----
-
-## 🧰 Open-Source Projects
-
-This repository also collects open-source projects that experiment with Jev in real applications.
-
-Some areas include:
-
-- Browser automation
-- Coding agents
-- AI model routing
-- Search
-- PostgreSQL
-- MCP servers
-- Developer tools
-- Games
-- Trading experiments
-- AI agent guardrails
-
-The repository includes projects such as browser-use integrations, Claude Code tooling, Jev routers, MCP servers, search systems, and more.
+| 🔀 Router | Select the correct model/tool |
+| 🏷️ Classifier | Categorize incoming data |
+| ⚖️ Judge | Evaluate an output |
+| 🛡️ Guardrail | Allow or reject an action |
+| 📥 Triage | Prioritize incoming work |
+| 🎯 Scorer | Rank candidates or inputs |
+| 🤖 Agent Controller | Decide the next action |
+| 🔎 Filter | Detect unwanted content |
 
 ---
 
-## 🧩 Patterns to Explore
+# 🛠️ Ideas You Can Build
 
-One of the main reasons for this collection is to identify **reusable AI engineering patterns**.
+If you're experimenting with AI and web development, these patterns can become projects such as:
 
-### Pattern 1 — Router
+### 01 — AI Support Router
+
+```text
+Customer Message
+       ↓
+      Jev
+       ↓
+Billing / Technical / Account / Other
+```
+
+### 02 — AI Lead Scoring
+
+```text
+Lead Data
+   ↓
+Decision Model
+   ↓
+Score
+   ↓
+Sales Priority
+```
+
+### 03 — AI Content Filter
+
+```text
+Post
+ ↓
+Classification
+ ↓
+Safe / Review / Reject
+```
+
+### 04 — Multi-Model Router
 
 ```text
 Request
    ↓
-Jev
+Decision Layer
    ↓
-Choose Model
-   ↓
-LLM / Agent
-```
-
-### Pattern 2 — Guardrail
-
-```text
-Agent Action
-     ↓
-    Jev
-     ↓
- ┌───┴────┐
- ↓        ↓
-Allow    Block
-```
-
-### Pattern 3 — Classifier
-
-```text
-Input
-  ↓
-Jev
-  ↓
-Intent
-  ↓
-Workflow
-```
-
-### Pattern 4 — Agent Decision Layer
-
-```text
-Agent State
-     ↓
-    Jev
-     ↓
-Next Action
-     ↓
-Tool Execution
-     ↓
-Updated State
+┌────────┬────────┬────────┐
+▼        ▼        ▼
+Fast    Reasoning Vision
+Model   Model     Model
 ```
 
 ---
 
-## 📚 What You Can Learn From This Repository
+# 📚 What You Can Learn
 
-This collection is useful for developers exploring:
+This repository is useful if you're learning:
 
-- AI agents
-- Agentic workflows
+- AI application architecture
+- Structured AI outputs
 - Prompt engineering
-- AI automation
-- Model routing
+- AI agents
 - Classification systems
-- Structured AI decisions
-- Tool calling
-- MCP
-- Browser automation
-- AI safety and guardrails
-- Real-time AI applications
+- Routing systems
+- Automation workflows
+- API integration
+- Open-source research
+- Developer tooling
 
-For someone learning modern AI development, the important idea is not simply **"which model is smarter?"**
-
-It is also:
-
-> **"Where should AI make a decision inside my application?"**
+For someone building AI-powered web applications, these examples can also serve as references for designing **decision layers inside real products**.
 
 ---
 
-## 🧪 Ideas to Build
-
-Looking for a project idea?
-
-Here are some directions inspired by the collection:
-
-- 🤖 AI Agent Task Router
-- 📧 Smart Email Triage System
-- 🛡️ Agent Safety Gate
-- 🔀 Multi-Model AI Router
-- 🔎 Intelligent Search Selector
-- 📊 Lead Qualification Agent
-- 🌐 Browser Action Decision Layer
-- 🧑‍💻 AI Coding Workflow Router
-- 📱 AI Support Ticket Classifier
-- ⚡ Real-Time Decision Engine
-
----
-
-## 🗂️ Repository Structure
+# 🗂️ Repository Structure
 
 ```text
 awesome-jev-use-cases/
 │
 ├── assets/
-│   ├── cards/
-│   ├── charts/
-│   └── banner-v3.png
-│
-├── data/
-│   ├── keywords.csv
-│   └── youtube.csv
+│   ├── banner-v3.png
+│   ├── sponsor.png
+│   ├── chart-top-demos.svg
+│   │
+│   └── cards/
+│       ├── 01-instant-compaction.svg
+│       ├── 02-browser-use-flights.svg
+│       ├── 03-rbilgil-slop-detector.svg
+│       └── ...
 │
 ├── docs/
-│   ├── README.md
-│   └── ...
+│   └── README.md
 │
 ├── README.md
 └── LICENSE
@@ -308,60 +400,156 @@ awesome-jev-use-cases/
 
 ---
 
-## 🤝 Contributing
+# 📈 Demo Snapshot
 
-Found an interesting Jev project?
+The original first-week snapshot covered demos published between **September 15–19, 2026**, with 74 demo posts and 127,162 combined likes.
+
+The collection tracks areas including:
+
+```text
+                    ┌─────────────────┐
+                    │      JEV        │
+                    └────────┬────────┘
+                             │
+       ┌─────────────┬───────┼───────────┬─────────────┐
+       ▼             ▼       ▼           ▼             ▼
+     Agents        Apps    Routing    Research       Games
+       │             │       │           │             │
+       ▼             ▼       ▼           ▼             ▼
+  Computer Use   Tools   Triage      Data          Real-time
+```
+
+---
+
+# 🔍 How to Use This Repository
+
+### Step 1 — Explore
+
+Start with the featured demos and use cases.
+
+### Step 2 — Identify a Pattern
+
+Look for:
+
+- Classification
+- Routing
+- Scoring
+- Guardrails
+- Triage
+- Agent control
+
+### Step 3 — Study the Implementation
+
+Follow the original project or post linked by each entry.
+
+### Step 4 — Build Your Own
+
+Adapt the pattern into a small project.
+
+### Step 5 — Share It
+
+If you build something useful, contribute it back to the collection.
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
 
 You can contribute by:
 
-1. Finding a relevant project or demo
-2. Checking the original source
-3. Adding accurate information
-4. Linking to the original author/repository
-5. Opening a Pull Request
+- Adding a new Jev demo
+- Adding an open-source repository
+- Suggesting a new use case
+- Improving documentation
+- Fixing broken links
+- Updating outdated information
+- Improving visuals or organization
 
-Please preserve proper attribution to the original creators.
+### Contribution flow
+
+```bash
+# Fork the repository
+
+# Create a branch
+git checkout -b feature/add-jev-project
+
+# Make your changes
+git add .
+
+# Commit
+git commit -m "Add new Jev use case"
+
+# Push
+git push origin feature/add-jev-project
+```
+
+Then open a Pull Request.
 
 ---
 
-## ⚠️ Attribution
+# ⚠️ Attribution & Disclaimer
 
-This repository is a **curated collection**.
+This repository is a **curated collection**, not a claim that the maintainer created the projects listed here.
 
-Projects, demos, screenshots, links, names, and other referenced material belong to their respective creators.
+The original collection states that:
 
-Always visit the original repository or post before using a project, asset, or implementation.
+- Entries link to their original posts or repositories.
+- Preview images belong to their respective creators.
+- The list is unofficial.
+- It is not affiliated with TypeSafe.
+- Ideas that have not been shipped are separated and marked as ideas.
 
-The original collection describes itself as unofficial and states that entries link back to their original posts or repositories.
+Please respect the licenses and attribution requirements of every individual project.
 
 ---
 
-## 📜 License
+# 📜 License
 
-This collection follows the licensing information included with the original repository.
+This collection follows the original repository's **CC0 1.0** licensing information.
+
+<a href="LICENSE">
+<img src="https://img.shields.io/badge/License-CC0%201.0-blue?style=for-the-badge" alt="CC0 1.0"/>
+</a>
 
 See [`LICENSE`](LICENSE) for the complete license text.
 
 ---
 
-## ⭐ Support
+# ⭐ Support the Project
 
 If you find this collection useful:
 
-**⭐ Star the repository**
+<div align="center">
 
-**🍴 Fork it**
+⭐ **Star the repository**
 
-**🤝 Contribute new projects**
+🐛 **Open an issue**
 
-**📚 Explore the referenced implementations**
+💡 **Suggest a use case**
+
+🤝 **Contribute a project**
+
+</div>
 
 ---
 
-<p align="center">
+<div align="center">
 
-### ⚡ Explore. Learn. Build. Automate.
+### Built and curated by Arish Islam
 
-**Built and curated by [Arish Islam](https://github.com/arish096)**
+**Web Developer · AI & Prompt Engineering · AI-Powered Applications**
 
-</p>
+<a href="https://github.com/arish096">
+<img src="https://img.shields.io/badge/GitHub-arish096-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+</a>
+
+<a href="https://arish-islam-portfolio.lovable.app/">
+<img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge" alt="Portfolio"/>
+</a>
+
+<br/><br/>
+
+**Explore → Learn → Build → Share**
+
+</div>
