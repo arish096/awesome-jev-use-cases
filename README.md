@@ -301,7 +301,7 @@ Action Queue
 
 ### 🎯 Scoring
 
-```text
+
 Input
   ↓
 Jev
