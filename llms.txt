@@ -1,0 +1,16 @@
+# Awesome Jev use cases
+
+> Unofficial, open-source (CC0) list of things built with TypeSafe AI's Jev model, a System One decision model that returns typed answers (Choice, Score, Noul) instead of text. Includes 74 demo posts ranked by likes, 150+ GitHub repos, limits, cost, an API quickstart and keyword research. Sponsored by AY Automate.
+
+## Docs
+- [README](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/main/README.md): the full list
+- [API quickstart](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/main/docs/api-quickstart.md): curl example and rules
+- [Keyword research](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/main/docs/keyword-research.md): what people search for
+- [Search plan](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/main/docs/search-plan.md): how this repo is meant to be found
+
+## Data
+- [demos.csv](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/main/data/demos.csv)
+- [repos.csv](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/main/data/repos.csv)
+- [more-repos.csv](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/main/data/more-repos.csv)
+- [youtube.csv](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/main/data/youtube.csv)
+- [keywords.csv](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/main/data/keywords.csv)

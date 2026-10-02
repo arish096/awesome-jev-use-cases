@@ -1,0 +1,113 @@
+keyword,monthly_us_searches,competition,cpc_usd,found_from_seed,snapshot
+ai detector,5000000,LOW,1.63,ai slop detector,2026-09-20
+openrouter ai,12100,MEDIUM,4.21,openrouter alternative,2026-09-20
+small language model,2900,LOW,1.64,small language model,2026-09-20
+claude code router,2900,LOW,8.53,claude code router,2026-09-20
+openrouter free models,2400,LOW,5.99,ai model router,2026-09-20
+llm as a judge,2400,LOW,12.57,llm as a judge,2026-09-20
+sapling ai detector,1600,LOW,2.99,ai slop detector,2026-09-20
+llm gateway,1600,MEDIUM,15.39,llm gateway,2026-09-20
+ai guardrails,1000,MEDIUM,24.64,ai guardrails,2026-09-20
+llm router,720,MEDIUM,7.09,llm router,2026-09-20
+openrouter alternative,720,MEDIUM,11.2,openrouter alternative,2026-09-20
+typesafe ai,320,LOW,,typesafe ai,2026-09-20
+what is openrouter ai,260,LOW,,ai model router,2026-09-20
+ai slop detector,260,LOW,3.17,ai slop detector,2026-09-20
+semantic router,210,LOW,5.34,semantic router,2026-09-20
+crossplag ai detector,170,LOW,4.7,ai slop detector,2026-09-20
+llm-as a judge paper,140,LOW,,llm as a judge,2026-09-20
+prompt injection ai,140,MEDIUM,13.48,prompt injection detection,2026-09-20
+ai email responder,140,LOW,21.13,ai email triage,2026-09-20
+omni-moderation-latest,110,LOW,11.47,content moderation api,2026-09-20
+ai email assistant free,110,MEDIUM,7.76,ai email triage,2026-09-20
+ai model router,70,MEDIUM,7.6,ai model router,2026-09-20
+openrouter free models limit,70,LOW,,ai model router,2026-09-20
+azure model router,70,LOW,16.09,ai model router,2026-09-20
+prompt injection detection,70,MEDIUM,18.84,prompt injection detection,2026-09-20
+small language models examples,70,LOW,,small language model,2026-09-20
+openrouter alternatives free,70,MEDIUM,6.37,openrouter alternative,2026-09-20
+llm gateway open source,70,MEDIUM,9.74,llm gateway,2026-09-20
+ai email assistant outlook,70,HIGH,21.75,ai email triage,2026-09-20
+al email,70,MEDIUM,13.58,ai email triage,2026-09-20
+content moderation api,50,MEDIUM,19.36,content moderation api,2026-09-20
+openai moderation api pricing,50,LOW,37.26,content moderation api,2026-09-20
+open-source small language models,50,LOW,,small language model,2026-09-20
+typesafe ai funding,40,LOW,,typesafe ai,2026-09-20
+best llm router,40,LOW,3.84,llm router,2026-09-20
+llm classifier,40,LOW,,llm classifier,2026-09-20
+ai guardrails examples,40,MEDIUM,24.05,ai guardrails,2026-09-20
+llm gateway aws,40,LOW,21.32,llm gateway,2026-09-20
+ai spam filter,40,MEDIUM,22.96,ai spam filter,2026-09-20
+llm router open source,30,LOW,6.01,llm router,2026-09-20
+llm router github,30,LOW,,llm router,2026-09-20
+openrouter alternatives janitor ai,30,LOW,6.03,openrouter alternative,2026-09-20
+llm gateway github,30,LOW,21.68,llm gateway,2026-09-20
+model router llm,20,MEDIUM,4.08,ai model router,2026-09-20
+openrouter api models,20,LOW,,ai model router,2026-09-20
+ai guardrails tools,20,HIGH,20.24,ai guardrails,2026-09-20
+types of prompt injection attacks,20,LOW,20.37,prompt injection detection,2026-09-20
+small language model ai,20,LOW,,small language model,2026-09-20
+small language models huggingface,20,LOW,,small language model,2026-09-20
+list of small language models,20,LOW,,small language model,2026-09-20
+small language models for coding,20,LOW,0.18,small language model,2026-09-20
+openrouter alternative reddit,20,LOW,,openrouter alternative,2026-09-20
+ai email triage,20,LOW,32.37,ai email triage,2026-09-20
+ai for sales emails,20,LOW,,ai email triage,2026-09-20
+typesafe ai crunchbase,10,LOW,,typesafe ai,2026-09-20
+llm router paper,10,LOW,,llm router,2026-09-20
+llm router langchain,10,LOW,,llm router,2026-09-20
+semantic router llm,10,LOW,,semantic router,2026-09-20
+semantic router python,10,LOW,,semantic router,2026-09-20
+semantic router langchain,10,,,semantic router,2026-09-20
+semantic router pypi,10,LOW,,semantic router,2026-09-20
+semantic-router github,10,LOW,,semantic router,2026-09-20
+llm classification huggingface,10,,,llm classifier,2026-09-20
+llm text classification github,10,,,llm classifier,2026-09-20
+text classification using llm,10,,,llm classifier,2026-09-20
+llm classification prompt,10,,,llm classifier,2026-09-20
+llm classification head,10,LOW,,llm classifier,2026-09-20
+best llm model for classification,10,LOW,,llm classifier,2026-09-20
+llm-as a judge huggingface,10,LOW,10.9,llm as a judge,2026-09-20
+llm-as a judge first paper,10,LOW,,llm as a judge,2026-09-20
+llm-as a judge leaderboard,10,LOW,,llm as a judge,2026-09-20
+llm-as a judge best practices,10,MEDIUM,14.48,llm as a judge,2026-09-20
+llm as a judge example,10,MEDIUM,18,llm as a judge,2026-09-20
+llm-as a judge langfuse,10,MEDIUM,2.77,llm as a judge,2026-09-20
+llm-as a judge evaluation metrics,10,MEDIUM,9.36,llm as a judge,2026-09-20
+ai guardrails f5,10,MEDIUM,13.41,ai guardrails,2026-09-20
+ai guardrails open-source,10,MEDIUM,,ai guardrails,2026-09-20
+ai guardrails netskope,10,LOW,12.15,ai guardrails,2026-09-20
+ai guardrails github,10,LOW,,ai guardrails,2026-09-20
+ai slop detector extension,10,LOW,1.45,ai slop detector,2026-09-20
+ai slop detector github,10,LOW,,ai slop detector,2026-09-20
+text classification api,10,LOW,,text classification api,2026-09-20
+google text classification api,10,,,text classification api,2026-09-20
+google classification categories,10,,,text classification api,2026-09-20
+automl text classification,10,,,text classification api,2026-09-20
+text classification open-source,10,LOW,,text classification api,2026-09-20
+free moderation api,10,LOW,,content moderation api,2026-09-20
+claude moderation api,10,LOW,,content moderation api,2026-09-20
+openai moderation api rate limit,10,LOW,,content moderation api,2026-09-20
+prompt injection detection github,10,MEDIUM,,prompt injection detection,2026-09-20
+prompt injection detection library,10,MEDIUM,13.5,prompt injection detection,2026-09-20
+prompt injection detection model,10,MEDIUM,,prompt injection detection,2026-09-20
+small language model architecture,10,MEDIUM,20.86,small language model,2026-09-20
+small language models research paper,10,LOW,,small language model,2026-09-20
+openrouter alternatives free reddit,10,LOW,,openrouter alternative,2026-09-20
+openrouter alternatives with free models,10,LOW,,openrouter alternative,2026-09-20
+llm gateway api,10,MEDIUM,109.53,llm gateway,2026-09-20
+llm gateway self-hosted,10,LOW,,llm gateway,2026-09-20
+llm gateway litellm,10,LOW,,llm gateway,2026-09-20
+llm gateway langchain,10,LOW,14.45,llm gateway,2026-09-20
+llm gateway golang,10,LOW,,llm gateway,2026-09-20
+ai agent routing,10,HIGH,,ai agent routing,2026-09-20
+claude code router vscode,10,,,claude code router,2026-09-20
+claude code router install,10,LOW,,claude code router,2026-09-20
+claude code router reddit,10,LOW,,claude code router,2026-09-20
+claude code router alternative,10,LOW,,claude code router,2026-09-20
+claude code router docker,10,LOW,,claude code router,2026-09-20
+ai spam filter gmail,10,MEDIUM,,ai spam filter,2026-09-20
+ai spam filter outlook,10,HIGH,7.6,ai spam filter,2026-09-20
+ai email spam filter,10,MEDIUM,70.64,ai spam filter,2026-09-20
+ai spam emails,10,LOW,,ai spam filter,2026-09-20
+emailtriager,10,,,ai email triage,2026-09-20

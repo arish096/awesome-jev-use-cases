@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this list or its data, please cite it.
+title: Awesome Jev use cases
+type: dataset
+authors:
+  - family-names: Boulanouar
+    given-names: Walid
+repository-code: https://github.com/walidboulanouar/awesome-jev-use-cases
+license: CC0-1.0
+date-released: 2026-09-20
+keywords: [jev, typesafe, system-one, llm, awesome-list]
